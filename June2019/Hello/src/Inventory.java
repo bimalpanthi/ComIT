@@ -6,7 +6,8 @@ public class Inventory {
         Scanner in = new Scanner(System.in);
         String productType = in.next();
         System.out.println("Please enter the cost to us for each " + productType);
-        int cost = in.nextInt();
+        int cost = in.nextInt();  
+        // check if cost is integer or string.. if it is string ask again to input the cost in number. Wondering how to do it??//
         System.out.println("Please enter the brand name");
         String brandName = in.next();
         System.out.println("Please enter the number of " + productType + " in the shipment");
